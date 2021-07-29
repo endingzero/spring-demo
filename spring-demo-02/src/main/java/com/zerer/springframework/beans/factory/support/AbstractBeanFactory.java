@@ -2,7 +2,6 @@ package com.zerer.springframework.beans.factory.support;
 
 import com.zerer.springframework.beans.factory.BeanFactory;
 import com.zerer.springframework.beans.factory.config.BeanDefinition;
-import com.zerer.springframework.beans.factory.config.SingleBeanRegistry;
 
 /**
  * @program spring-demo
@@ -16,7 +15,7 @@ public abstract class AbstractBeanFactory extends DefaultSingletonBeanRegistry i
     public Object getBean(String name) {
 
         Object singleton = getSingleton(name);
-        if(singleton != null) {
+        if (singleton != null) {
             return singleton;
         }
         BeanDefinition beanDefinition = getBeanDefinition(name);

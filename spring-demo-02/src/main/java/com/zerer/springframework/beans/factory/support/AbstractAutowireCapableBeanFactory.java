@@ -9,7 +9,7 @@ import com.zerer.springframework.beans.factory.config.BeanDefinition;
  * @author: zhuangjiewei
  * @create: 2021/07/24 11:43
  */
-public abstract class AbstractAutowireCapableBeanFactory extends AbstractBeanFactory{
+public abstract class AbstractAutowireCapableBeanFactory extends AbstractBeanFactory {
 
 
     @Override
@@ -23,7 +23,7 @@ public abstract class AbstractAutowireCapableBeanFactory extends AbstractBeanFac
         } catch (IllegalAccessException e) {
             throw new BeansException("Instantiation of bean failed", e);
         }
-        addSingleton(name,object);
+        addSingleton(name, object);
         return object;
     }
 }
