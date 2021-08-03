@@ -1,5 +1,45 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="53884577-7ff0-424a-8ec3-13fb975015c9" name="Default Changelist" comment="feat: spring-demo-03">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/spring-demo.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/spring-demo.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-demo-01/spring-demo-01.iml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-demo-01/spring-demo-01.iml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
+  </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
@@ -15,6 +55,9 @@
     </option>
   </component>
   <component name="ProjectId" id="1vi7DTISLyTjUWyp3oQqYnnuuja" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -22,9 +65,274 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SONARLINT_PRECOMMIT_ANALYSIS" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/spring-demo-05/src/test/java/com/zerer/springframework/test" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.importing" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.zerer.springframework.beans.factory.xml" />
+      <recent name="com.zerer.springframework.utils" />
+      <recent name="com.zerer.springframework.test.bean" />
+      <recent name="com.zerer.springframework.beans.factory.config" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\github_repo\spring-demo\spring-demo-05\src\test\java\com\zerer\springframework\test" />
+      <recent name="E:\github_repo\spring-demo\spring-demo-05\src\test" />
+      <recent name="E:\github_repo\spring-demo\spring-demo-05\src\main\java\com\zerer\springframework\core\io" />
+      <recent name="E:\github_repo\spring-demo\spring-demo-05\src\main\java\com\zerer\springframework\beans\factory\config" />
+      <recent name="E:\github_repo\spring-demo\spring-demo-05\src\main\java\com\zerer\springframework\beans\factory" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.ApiTest.test_xml">
+    <configuration name="ApiTest.test_BeanFactory (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring-demo-03" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zerer.springframework.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.zerer.springframework.test" />
+      <option name="MAIN_CLASS_NAME" value="com.zerer.springframework.test.ApiTest" />
+      <option name="METHOD_NAME" value="test_BeanFactory" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ApiTest.test_BeanFactory" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring-demo-04" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zerer.springframework.test.bean.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.zerer.springframework.test" />
+      <option name="MAIN_CLASS_NAME" value="com.zerer.springframework.test.ApiTest" />
+      <option name="METHOD_NAME" value="test_BeanFactory" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ApiTest.test_BeanFactory" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring-demo-03" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zerer.springframework.test.bean.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.zerer.springframework.test" />
+      <option name="MAIN_CLASS_NAME" value="com.zerer.springframework.test.ApiTest" />
+      <option name="METHOD_NAME" value="test_BeanFactory" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ApiTest.test_constructor" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring-demo-03" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zerer.springframework.test.bean.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.zerer.springframework.test" />
+      <option name="MAIN_CLASS_NAME" value="com.zerer.springframework.test.ApiTest" />
+      <option name="METHOD_NAME" value="test_constructor" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ApiTest.test_parameterTypes" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring-demo-03" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zerer.springframework.test.bean.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.zerer.springframework.test" />
+      <option name="MAIN_CLASS_NAME" value="com.zerer.springframework.test.ApiTest" />
+      <option name="METHOD_NAME" value="test_parameterTypes" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ApiTest.test_xml" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring-demo-05" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zerer.springframework.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.zerer.springframework.test" />
+      <option name="MAIN_CLASS_NAME" value="com.zerer.springframework.test.ApiTest" />
+      <option name="METHOD_NAME" value="test_xml" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.ApiTest.test_xml" />
+        <item itemvalue="JUnit.ApiTest.test_BeanFactory" />
+        <item itemvalue="JUnit.ApiTest.test_BeanFactory (1)" />
+        <item itemvalue="JUnit.ApiTest.test_parameterTypes" />
+        <item itemvalue="JUnit.ApiTest.test_constructor" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="53884577-7ff0-424a-8ec3-13fb975015c9" name="Default Changelist" comment="" />
+      <created>1627032935072</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1627032935072</updated>
+      <workItem from="1627032936733" duration="948000" />
+      <workItem from="1627521611475" duration="31711000" />
+    </task>
+    <task id="LOCAL-00001" summary="feat: spring-demo-02">
+      <created>1627523518227</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1627523518227</updated>
+    </task>
+    <task id="LOCAL-00002" summary="feat: spring-demo-03">
+      <created>1627527082583</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1627527082583</updated>
+    </task>
+    <task id="LOCAL-00003" summary="feat: spring-demo-04">
+      <created>1627537694868</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1627537694868</updated>
+    </task>
+    <task id="LOCAL-00004" summary="feat: spring-demo-05">
+      <created>1627546112399</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1627546112399</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="feat: spring-demo-02" />
+    <MESSAGE value="feat: spring-demo-03" />
+    <MESSAGE value="feat: spring-demo-04" />
+    <MESSAGE value="feat: spring-demo-05" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: spring-demo-05" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="233" y="0" key="#Project_Structure" timestamp="1627546658305">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="233" y="0" key="#Project_Structure/0.0.1280.680@0.0.1280.680" timestamp="1627546658305" />
+    <state x="446" y="50" key="#com.intellij.ide.util.MemberChooser" timestamp="1627559712371">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="446" y="50" key="#com.intellij.ide.util.MemberChooser/0.0.1280.680@0.0.1280.680" timestamp="1627559712371" />
+    <state x="206" y="0" key="CommitChangelistDialog2" timestamp="1627901880927">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="206" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1627901880927" />
+    <state width="468" height="438" key="DebuggerActiveHint" timestamp="1627537530839">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="468" height="438" key="DebuggerActiveHint/0.0.1280.680@0.0.1280.680" timestamp="1627537530839" />
+    <state x="95" y="50" key="DiffContextDialog" timestamp="1627538365209">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="95" y="50" key="DiffContextDialog/0.0.1280.680@0.0.1280.680" timestamp="1627538365209" />
+    <state width="1237" height="264" key="GridCell.Tab.0.bottom" timestamp="1627546205732">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="264" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1627546205732" />
+    <state width="1237" height="264" key="GridCell.Tab.0.center" timestamp="1627546205731">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="264" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1627546205731" />
+    <state width="1237" height="264" key="GridCell.Tab.0.left" timestamp="1627546205731">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="264" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1627546205731" />
+    <state width="1237" height="264" key="GridCell.Tab.0.right" timestamp="1627546205731">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="264" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1627546205731" />
+    <state width="1237" height="264" key="GridCell.Tab.1.bottom" timestamp="1627546205732">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="264" key="GridCell.Tab.1.bottom/0.0.1280.680@0.0.1280.680" timestamp="1627546205732" />
+    <state width="1237" height="264" key="GridCell.Tab.1.center" timestamp="1627546205732">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="264" key="GridCell.Tab.1.center/0.0.1280.680@0.0.1280.680" timestamp="1627546205732" />
+    <state width="1237" height="264" key="GridCell.Tab.1.left" timestamp="1627546205732">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="264" key="GridCell.Tab.1.left/0.0.1280.680@0.0.1280.680" timestamp="1627546205732" />
+    <state width="1237" height="264" key="GridCell.Tab.1.right" timestamp="1627546205732">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="264" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1627546205732" />
+    <state x="233" y="74" key="Vcs.Push.Dialog.v2" timestamp="1627546119076">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="233" y="74" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1627546119076" />
+    <state x="437" y="258" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1627521628293">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="437" y="258" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1280.680@0.0.1280.680" timestamp="1627521628292" />
+    <state x="254" y="40" width="773" height="600" key="find.popup" timestamp="1627868365583">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="254" y="40" width="773" height="600" key="find.popup/0.0.1280.680@0.0.1280.680" timestamp="1627868365583" />
+    <state x="343" y="0" key="refactoring.ChangeSignatureDialog" timestamp="1627525346344">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="343" y="0" key="refactoring.ChangeSignatureDialog/0.0.1280.680@0.0.1280.680" timestamp="1627525346344" />
+    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup" timestamp="1627541632069">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup/0.0.1280.680@0.0.1280.680" timestamp="1627541632069" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/spring-demo-02/src/test/java/com/zerer/springframework/test/ApiTest.java</url>
+          <line>24</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
